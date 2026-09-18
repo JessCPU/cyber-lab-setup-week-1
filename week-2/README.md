@@ -17,7 +17,7 @@ This phase focuses on passive footprinting, OSINT gathering, and domain reconnai
 
 ---
 
-🛡️ Purpose of the Lab
+## 🛡️ Purpose of the Lab
 
 This laboratory provides a secure, self-contained workspace dedicated to practical cybersecurity training and authorized vulnerability testing.
 
