@@ -39,6 +39,9 @@ Performs domain registration lookup to gather registrar, creation date, name ser
 ```bash
 whois networkwalks.com > whois-output.txt
 ```
+
+![Kali Linux running](images/whois-output.png)
+
 ---
 
 ## 🛠️ Task 2: WhatWeb Technology Detection
@@ -48,6 +51,8 @@ Identifies underlying web server technologies, CMS platforms, IP addresses, and 
 **Command Executed:**
 
 whatweb networkwalks.com > whatweb-output.txt
+
+![Kali Linux running](images/whatweb-output.png)
 
 ---
 
