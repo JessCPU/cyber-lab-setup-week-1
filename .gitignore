@@ -1,0 +1,11 @@
+# VirtualBox virtual machine files
+*.vdi
+*.vbox
+*.vbox-prev
+*.sav
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
