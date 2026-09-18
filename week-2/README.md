@@ -112,7 +112,7 @@ wafw00f [https://networkwalks.com](https://networkwalks.com) -o wafw00f-output.t
 
 ---
 
-🔎 Task 6: DNS Reconnaissance (dnsrecon)
+## 🔎 Task 6: DNS Reconnaissance (dnsrecon)
 Enumerates DNS records (A, NS, MX, SOA) and performs sub-domain enumeration.
 
 **Command Executed:**
@@ -126,6 +126,8 @@ dnsrecon -d networkwalks.com &> dnsrecon-output.txt
 
 📂 Output Verification
 Confirms that all output logs were captured and non-empty.
+
+![Kali Linux running](images/file-verification-output.png)
 
 
 **Command Executed:**
