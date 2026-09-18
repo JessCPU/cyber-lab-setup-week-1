@@ -42,11 +42,11 @@ This laboratory provides a secure, self-contained workspace dedicated to practic
 
 Key capabilities and practice areas include:
 
--Domain footprinting and passive reconnaissance
--DNS record analysis and enumeration
--Web application fingerprinting and header analysis
--WAF detection and identification
--Log file redirection and command-line execution documentation
+- Domain footprinting and passive reconnaissance
+- DNS record analysis and enumeration
+- Web application fingerprinting and header analysis
+- WAF detection and identification
+- Log file redirection and command-line execution documentation
 
 
 ## 🔍 Task 1: WHOIS Domain Lookup
