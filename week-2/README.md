@@ -137,29 +137,30 @@ ls -lh *.txt
 
 ```text
 .
-├── .gitignore
-├── README.md
 ├── images/
 │   ├── import-kali-linux.png
 │   └── kali-linux-running.png
-└── week-2/
-    ├── .gitkeep
-    ├── README.md
-    ├── curl-output.txt
-    ├── dnsrecon-output.txt
-    ├── nslookup-output.txt
-    ├── wafw00f-output.txt
-    ├── whatweb-output.txt
-    ├── whois-output.txt
-    └── images/
-        ├── .gitkeep
-        ├── curl-output.png
-        ├── dnsrecon-output.png
-        ├── file-verification.png
-        ├── nslookup-output.png
-        ├── wafw00f-output.png
-        ├── whatweb-output.png
-        └── whois-output.png
+├── week-2/
+│   ├── images/
+│   │   ├── .gitkeep
+│   │   ├── curl-output.png
+│   │   ├── dnsrecon-output.png
+│   │   ├── file-verification.png
+│   │   ├── nslookup-output.png
+│   │   ├── wafw00f-output.png
+│   │   ├── whatweb-output.png
+│   │   └── whois-output.png
+│   ├── .gitkeep
+│   ├── curl-output.txt
+│   ├── dnsrecon-output.txt
+│   ├── nslookup-output.txt
+│   ├── wafw00f-output.txt
+│   ├── whatweb-output.txt
+│   ├── whois-output.txt
+│   └── README.md
+├── .gitignore
+└── README.md
+
 ```
 ---
 
