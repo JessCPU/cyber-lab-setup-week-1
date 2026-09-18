@@ -17,6 +17,25 @@ This phase focuses on passive footprinting, OSINT gathering, and domain reconnai
 
 ---
 
+## 📊 Key Security Findings
+
+* **Domain Registrar & Hosting:** Registered through GoDaddy with DNS managed via GoDaddy name servers (`NS01.DOMAINCONTROL.COM` / `NS02.DOMAINCONTROL.COM`).
+* **Web Architecture:** Running on GoDaddy hosted web servers with standard HTTP/HTTPS redirection configured.
+* **WAF Protection:** Actively protected by **ModSecurity (SpiderLabs)** Web Application Firewall, configured to filter malicious payloads and block unauthorized scanning signatures.
+* **DNS Configuration:** Valid MX records, SOA records, and A record mappings identified without unauthorized subdomain exposures during passive enumeration.
+
+---
+
+## ✅ Deliverables Checklist
+
+- [x] Executed passive footprinting using CLI reconnaissance tools.
+- [x] Redirected output streams to non-empty text log files (`*.txt`).
+- [x] Saved high-resolution terminal screenshots to the `images/` directory.
+- [x] Verified file integrity and size via `ls -lh *.txt`.
+- [x] Structured repository documentation with formatted Markdown and inline media embeds.
+
+---
+
 ## 🛡️ Purpose of the Lab
 
 This laboratory provides a secure, self-contained workspace dedicated to practical cybersecurity training and authorized vulnerability testing.
@@ -111,53 +130,6 @@ Confirms that all output logs were captured and non-empty.
 
 **Command Executed:**
 ls -lh *.txt
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
