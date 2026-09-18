@@ -90,6 +90,10 @@ dnsrecon -d networkwalks.com &> dnsrecon-output.txt
 Confirms that all output logs were captured and non-empty.
 
 
+**Command Executed:**
+ls -lh *.txt
+
+---
 
 
 
