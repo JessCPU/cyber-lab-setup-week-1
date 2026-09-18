@@ -124,7 +124,8 @@ dnsrecon -d networkwalks.com &> dnsrecon-output.txt
 
 ---
 
-📂 Output Verification
+## 📂 Output Verification
+
 Confirms that all output logs were captured and non-empty.
 
 ![Kali Linux running](images/file-verification.png)
