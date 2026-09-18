@@ -63,6 +63,10 @@ Queries Domain Name System (DNS) servers to reveal the target domain's primary I
 **Command Executed:**
 nslookup networkwalks.com > nslookup-output.txt
 
+
+![Kali Linux running](images/nslookup-output.png)
+
+
 ---
 
 ## 📑 Task 4: cURL HTTP Header Inspection
@@ -71,6 +75,9 @@ Fetches HTTP response headers to analyze server signatures, caching protocols, a
 
 **Command Executed:**
 curl -I [https://networkwalks.com](https://networkwalks.com) > curl-output.txt
+
+
+![Kali Linux running](images/curl-output.png)
 
 ---
 
@@ -81,6 +88,9 @@ Fingerprints the web application to determine if an active Web Application Firew
 **Command Executed:**
 wafw00f [https://networkwalks.com](https://networkwalks.com) -o wafw00f-output.txt
 
+
+![Kali Linux running](images/wafw00f-output.png)
+
 ---
 
 🔎 Task 6: DNS Reconnaissance (dnsrecon)
@@ -88,6 +98,10 @@ Enumerates DNS records (A, NS, MX, SOA) and performs sub-domain enumeration.
 
 **Command Executed:**
 dnsrecon -d networkwalks.com &> dnsrecon-output.txt
+
+
+![Kali Linux running](images/dnsrecon-output.png)
+
 
 ---
 
