@@ -142,8 +142,8 @@ ls -lh *.txt
 ```text
 .
 ├── images/                      # Week 1 project screenshots
-│   ├── import-kali-linux.png    # Kali Linux VM import screenshot
-│   └── kali-linux-running.png   # Kali Linux active state screenshot
+│   ├── import-kali-linux.png    # VirtualBox Kali Linux import configuration
+│   └── kali-linux-running.png   # Kali Linux virtual machine running
 ├── week-2/                      # Week 2 lab directory
 │   ├── images/                  # Week 2 project screenshots
 │   │   ├── .gitkeep             # Directory tracking file
@@ -165,8 +165,6 @@ ls -lh *.txt
 ├── .gitignore                   # Excludes VirtualBox VM and system files
 └── README.md                    # Main repository README file
 ```
-
----
 
 ---
 
