@@ -214,6 +214,32 @@ The following tables summarize the results collected during both practical tasks
 
 ---
 
+#### Task 2 — Mathematics PDF Research Results
+
+The primary search pattern used for this exercise was:
+
+`intitle:index.of "parent directory" mathematics pdf`
+
+| # | Result | Relevant Dork | Credentials | Status |
+|---|---|---|---|---|
+| 1 | `https://www.skylineuniversity.ac.ae/pdf/math/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 2 | `https://ochicken.net/library/Mathematics/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 3 | `https://education.giakonda.org.uk/Maths/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 4 | `https://www.netlib.org/math/docpdf/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 5 | `https://www.math.uci.edu/~math/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 6 | `https://www.math.purdue.edu/academic/files/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 7 | `https://www.math.ucla.edu/~books/pdf/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 8 | `https://www.math.iitb.ac.in/resources/pdf/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 9 | `https://www.math.toronto.edu/coursefiles/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+| 10 | `https://www.math.washington.edu/pdf/` | `intitle:index.of "parent directory" mathematics pdf` | None | :white_check_mark: Found |
+
+---
+
+
+
+
+
+
 
 
 
