@@ -199,18 +199,18 @@ The following tables summarize the results collected during both practical tasks
 
 #### Task 1 — Internet-Exposed Camera Research Results
 
-| No. | Link | Relevant Dork | Username /Password(if any) |
+| # | Camera Endpoint | Relevant Dork | Credentials | Status |
 |---|---|---|---|---|
-| 1 | `http://109.233.191.130:8080/` | `intitle:"webcamXP" inurl:8080` | None |
-| 2 | `http://www.insecam.org` | 'inurl:"view/index.shtml"` | None |
-| 3 | `http://mediaplace.ath.forthnet.gr:81` | `intitle:"IP Camera"` | Protected (Login Required) |
-| 4 | `https://www.skylinewebcams.com/webcam/italia/lazio/roma/piazza-di-spagna.html` | `inurl:webcam "Rome Live cam"` | None |
-| 5 | `https://www.microseven.com/tv/index.html` | `inurl:"/tv/index.html"` | None |
-| 6 | `http://www.insecam.org/en/view/365340/` | `inurl:"/en/view/"` | None |
-| 7 | `https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/fontana-di-trevi.html` | `inurl:webcam "Trevi Fountain"` | None |
-| 8 | `http://harborcam.two-rivers.org/camera/index.html#/video` | `intitle:"AXIS" inurl:"/camera/index.html"` | None |
-| 9 | `http://109.164.203.165/cgi-bin/guestimage.html` | `inurl:"/cgi-bin/guestimage.html"` | None |
-| 10 | `http://klauserg.dyndns.org` | `intitle:"DERICAM"` | Protected (Login Required) |
+| 1 | `http://109.233.191.130:8080/` | `intitle:"webcamXP" inurl:8080` | None | :white_check_mark: Found |
+| 2 | `http://www.insecam.org` | `inurl:"view/index.shtml"` | None | :white_check_mark: Found |
+| 3 | `http://mediaplace.ath.forthnet.gr:81` | `intitle:"IP Camera"` | Protected (Login Required) | :white_check_mark: Found |
+| 4 | `https://www.skylinewebcams.com/webcam/italia/lazio/roma/piazza-di-spagna.html` | `inurl:webcam "Rome Live cam"` | None | :white_check_mark: Found |
+| 5 | `https://www.microseven.com/tv/index.html` | `inurl:"/tv/index.html"` | None | :white_check_mark: Found |
+| 6 | `http://www.insecam.org/en/view/365340/` | `inurl:"/en/view/"` | None | :white_check_mark: Found |
+| 7 | `https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/fontana-di-trevi.html` | `inurl:webcam "Trevi Fountain"` | None | :white_check_mark: Found |
+| 8 | `http://harborcam.two-rivers.org/camera/index.html#/video` | `intitle:"AXIS" inurl:"/camera/index.html"` | None | :white_check_mark: Found |
+| 9 | `http://109.164.203.165/cgi-bin/guestimage.html` | `inurl:"/cgi-bin/guestimage.html"` | None | :white_check_mark: Found |
+| 10 | `http://klauserg.dyndns.org` | `intitle:"DERICAM"` | Protected (Login Required) | :white_check_mark: Found |
 
 ---
 
