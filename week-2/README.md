@@ -173,25 +173,33 @@ ls -lh *.txt
 ## 🔍 W2-PM2 — GHDB & Search-Engine OSINT
 
 
+This practical module explored how the Google Hacking Database (GHDB) and specialized search operators can be leveraged to locate publicly indexed, sensitive information during OSINT reconnaissance[cite: 16].
+
+### Task 1 — Internet-Exposed Camera Research
+
+This objective focused on identifying publicly searchable surveillance interfaces and mapping out the corresponding Google Dorks[cite: 16]. To maintain responsible disclosure standards in a public repository, **all live IP addresses, camera endpoints, and sensitive identifiers have been redacted**.
 
 
 
+### Task 2 — Mathematics PDF Research
 
+The secondary objective utilized open-directory search parameters to discover exposed web directories containing freely accessible mathematics textbooks and PDF documents[cite: 16].
 
+---
 
+### Challenge Encountered
 
+Module PM2 required the most extensive research time in Week 2. Filtering out invalid or offline endpoints proved challenging due to common web indexing issues:
 
+- Endpoints were no longer online or active.
+- Directory contents had changed after being crawled by search engines.
+- Network connections timed out during verification.
+- Search queries returned inconsistent or irrelevant pages.
+- Certain target portals presented ethical or safety considerations.
 
+> **Key Takeaway:** Search engine indexing does not guarantee that an endpoint is active, secure, or safe[cite: 16]. All OSINT findings must be thoroughly verified before drawing conclusions.
 
-
-
-
-
-
-
-
-
-
+---
 
 ### 📊 Results Collected
 
@@ -235,10 +243,48 @@ The primary search pattern used for this exercise was:
 
 ---
 
+## 🕸️ W2-PM3 — Footprinting with Maltego
 
 
+This module focused on using **Maltego** to perform link analysis and visual intelligence gathering.
+
+The hands-on process involved:
+
+1. Setting up and initializing the Maltego environment.
+2. Adding a target domain entity to start the investigation graph.
+3. Executing OSINT transforms to harvest publicly available records.
+4. Analyzing the generated infrastructure, IP, and domain entities.
+5. Mapping out hidden connections and data relationships visually.
+
+### Key Learning Outcome
+
+This lab highlighted the power of node-based link analysis in threat intelligence. Visualizing footprinting data makes identifying hidden infrastructure, overlapping networks, and target relationships far clearer than sifting through raw text logs or isolated terminal outputs.
+
+---
+
+## 🌐 W2-PM4 — Footprinting with theHarvester
 
 
+This module explored **theHarvester**, a passive OSINT reconnaissance tool designed to aggregate publicly exposed footprint data for target domains and organizations. 
+
+### Exercise Objectives
+
+During this practical lab, the following steps were executed:
+
+* Initialized the tool and reviewed available command-line arguments and external data sources.
+* Executed targeted domain reconnaissance against `microsoft.com`.
+* Documented and archived the terminal output for evidence.
+
+A key takeaway from this module was observing how third-party providers handle automated queries. Because OSINT tools rely on external databases, the results are frequently limited by missing API keys, rate limiting, and shifting search-engine policies.
+
+---
+
+### Execution & Evidence
+
+**Command Run:**
+```bash
+theHarvester -d microsoft.com -l 1000 -b baidu
+```
 
 
 
