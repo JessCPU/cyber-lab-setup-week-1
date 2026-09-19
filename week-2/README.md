@@ -6,6 +6,8 @@ This phase focuses on passive footprinting, OSINT gathering, and domain reconnai
 
 ---
 
+## 🔎 W2-PM1 — Footprinting & Reconnaissance
+
 ## 🛠️ Tools & Technologies Used
 
 * **WHOIS (`whois`):** Enumerated domain registration metadata and GoDaddy name servers.
@@ -167,5 +169,57 @@ ls -lh *.txt
 ```
 
 ---
+
+## 🔍 W2-PM2 — GHDB & Search-Engine OSINT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 📊 Results Collected
+
+The following tables summarize the results collected during both practical tasks in W2-PM2.
+
+#### Task 1 — Internet-Exposed Camera Research Results
+
+| No. | Link | Relevant Dork | Username /Password(if any) |
+|---|---|---|---|---|
+| 1 | `http://109.233.191.130:8080/` | `intitle:"webcamXP" inurl:8080` | None |
+| 2 | `http://www.insecam.org` | 'inurl:"view/index.shtml"` | None |
+| 3 | `http://mediaplace.ath.forthnet.gr:81` | `intitle:"IP Camera"` | Protected (Login Required) |
+| 4 | `https://www.skylinewebcams.com/webcam/italia/lazio/roma/piazza-di-spagna.html` | `inurl:webcam "Rome Live cam"` | None |
+| 5 | `https://www.microseven.com/tv/index.html` | `inurl:"/tv/index.html"` | None |
+| 6 | `http://www.insecam.org/en/view/365340/` | `inurl:"/en/view/"` | None |
+| 7 | `https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/fontana-di-trevi.html` | `inurl:webcam "Trevi Fountain"` | None |
+| 8 | `http://harborcam.two-rivers.org/camera/index.html#/video` | `intitle:"AXIS" inurl:"/camera/index.html"` | None |
+| 9 | `http://109.164.203.165/cgi-bin/guestimage.html` | `inurl:"/cgi-bin/guestimage.html"` | None |
+| 10 | `http://klauserg.dyndns.org` | `intitle:"DERICAM"` | Protected (Login Required) |
+
+---
+
+
+
+
+
+
+
+
 
 
