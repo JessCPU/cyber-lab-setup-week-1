@@ -284,7 +284,24 @@ A key takeaway from this module was observing how third-party providers handle a
 **Command Run:**
 ```bash
 theHarvester -d microsoft.com -l 1000 -b baidu
+
 ```
+
+![Kali Linux running](images/theharvester-baidu.png)
+
+---
+
+
+
+## 🗺️ W2-PM5 — Network Scanning with Zenmap/Nmap
+
+
+
+
+
+
+
+
 
 
 
