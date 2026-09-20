@@ -296,7 +296,7 @@ theHarvester -d microsoft.com -l 1000 -b baidu
 ## 🗺️ W2-PM5 — Network Scanning with Zenmap/Nmap
 
 
-The final project module moved from public OSINT to authorized local network discovery[cite: 19]. 
+The final project module moved from public OSINT to authorized local network discovery. 
 
 **The workflow included:**
 1. Reviewing the local Windows network configuration.
@@ -426,7 +426,7 @@ Any raw, unredacted evidence containing private technical information is stored 
 
 The following tools, software, and resources were utilized to conduct the reconnaissance and network discovery exercises for this module:
 
-* **[Nmap](https://nmap.org/)**: Open-source network scanner used for host discovery and subnet identification[cite: 14].
+* **[Nmap](https://nmap.org/)**: Open-source network scanner used for host discovery and subnet identification.
 * **[Zenmap](https://nmap.org/zenmap/)**: Official graphical user interface (GUI) for Nmap, used for executing ping scans and generating visual network topology maps.
 * **[theHarvester](https://github.com/laramies/theHarvester)**: Open-source OSINT tool utilized for gathering domain intelligence, subdomains, and hostnames from public sources.
 * **[Maltego](https://www.maltego.com/)**: Graphical link analysis software used for mapping open-source intelligence relationships and data points.
