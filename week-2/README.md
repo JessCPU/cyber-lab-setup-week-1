@@ -296,19 +296,146 @@ theHarvester -d microsoft.com -l 1000 -b baidu
 ## 🗺️ W2-PM5 — Network Scanning with Zenmap/Nmap
 
 
+The final project module moved from public OSINT to authorized local network discovery[cite: 19]. 
+
+**The workflow included:**
+1. Reviewing the local Windows network configuration.
+2. Identifying the correct LAN subnet.
+3. Configuring Zenmap.
+4. Performing an Nmap ping/host-discovery scan.
+5. Identifying live hosts.
+6. Reviewing discovered host information.
+7. Visualizing the network using Zenmap topology.
+8. Exporting the topology as a PDF.
+9. Completing the NetworkWalks practical lab submission.
+
+The authorized `/24` LAN scan identified: 
+**13 live hosts**
+
+---
+
+### Scan Execution & Discovered Assets
+
+* **Target Subnet:** `192.168.55.0/24`
+* **Command Executed:** `nmap -sn 192.168.55.0/24`
+
+**Discovered IP & MAC Addresses:**
+* `192.168.55.1` (Gateway) — `1c-d1-1a-e6-0a-6a`
+* `192.168.55.51` — `80-be-af-19-2e-b2`
+* `192.168.55.52` — `cc-2d-e0-bc-54-31`
+* `192.168.55.58` — `ac-81-12-68-bd-08`
+* `192.168.55.59` — `2c-b0-5d-bd-81-2e`
+* `192.168.55.60` — `f0-7b-cb-37-3d-e9`
+* `192.168.55.70` — `b2-9d-5f-4b-a6-0d`
+* `192.168.55.73` — `54-b5-6c-12-de-d5`
+* `192.168.55.84` — `c2-cb-13-23-fc-07`
+* `192.168.55.96` — `1a-d5-dd-a8-5b-9e`
+* `192.168.55.97` (Local PC) — `2C-DB-07-CD-58-D4`
+* `192.168.55.124` — *(No MAC resolved)*
+* `192.168.55.151` — `00-00-54-ff-c1-27`
+
+---
+
+### Key Learning Outcome
+The exercise demonstrated why organizations should maintain accurate asset inventories. Network discovery can identify systems that administrators may need to classify, monitor, isolate, update, or investigate.
+
+---
+
+### Network Topology
+
+
+![Kali Linux running](images/network_topology.pdf)
+
+
+---
+
+## 🛠️ Skills Practiced
+
+**OSINT & Reconnaissance**
+* Domain footprinting and public intelligence gathering
+* DNS, WHOIS research, and web technology fingerprinting
+* Search-engine reconnaissance (Google Dorks, theHarvester, Maltego)
+
+**Network Discovery**
+* LAN subnet identification and live-host discovery
+* Network scanning and topology visualization using Nmap/Zenmap
+
+**Professional Practice**
+* Technical report writing and screenshot documentation
+* Responsible evidence collection and data sanitization
+
+
+---
+
+## ⚠️ Challenges & Lessons Learned
+
+Most tasks were completed successfully by following the provided lab procedures, though a few technical and data-gathering challenges arose.
+
+**Google Hacking & OSINT Challenges**
+A significant challenge occurred during public OSINT gathering, where search results frequently changed or became unavailable. Finding valid results using Google Dorks required additional time because some indexed camera-related pages:
+* were no longer reachable or timed out,
+* had changed since being indexed,
+* produced inconsistent results,
+* or presented privacy and security concerns.
+
+**Network Scanning Challenges**
+* **Installer Issues:** Encountered a corrupted Nmap installer ("NSIS Error") during the initial setup, which required troubleshooting and clearing corrupted files.
+* **Npcap Limitations:** The Zenmap GUI failed to resolve remote MAC addresses natively during the ping scan.
+
+**Key Lessons Learned:**
+* **Search-engine results require validation:** An indexed resource (like a Google Dork result) is not automatically current, reachable, safe, or appropriate to investigate further. 
+* **Public accessibility does not imply authorization:** Just because a device (like a camera) is exposed on the internet does not mean you have permission to interact with it.
+* **Command-Line Fallbacks are Essential:** When GUI tools fail (like Zenmap missing MAC addresses), falling back to fundamental CLI networking commands (`ping` and `arp -a`) is necessary to extract the missing data.
+* **Handle Evidence Responsibly:** Sensitive identifiers must be sanitized before publishing evidence to public repositories.
+
+---
 
 
 
+## 🛡️ Defensive Takeaways
 
+The exercises conducted during this module reinforce several core defensive principles:
+* **Asset Management:** Maintain a strict and accurate inventory of all network-connected devices.
+* **Attack Surface Reduction:** Limit the public footprint of organizational data and regularly audit public-facing infrastructure.
+* **Patch Management:** Ensure operating systems, network appliances, and software platforms remain fully updated.
+* **Access Control:** Enforce strong authentication on all administrative panels and exposed endpoints (such as IoT cameras).
+* **Network Segmentation:** Isolate untrusted devices, guest networks, and IoT hardware from critical infrastructure.
+* **OSINT Monitoring:** Actively monitor public intelligence sources to identify and remediate unintentional data leaks.
+* **Defense-in-Depth:** Utilize Web Application Firewalls (WAFs) as a supplementary layer of security, not as a replacement for secure baseline configurations.
+* **Security by Design:** Never rely on "security by obscurity" or search-engine de-indexing to protect sensitive assets.
 
+---
 
+## 🔐 Ethical & Security Notice
 
+This repository serves strictly as an educational and professional portfolio.
 
+All activities documented herein were conducted as authorized exercises within a structured cybersecurity training environment. No exploitation, credential attacks, brute-forcing, denial-of-service, privilege escalation, or unauthorized modifications were performed against any third-party systems.
 
+Where appropriate, public evidence has been sanitized to protect sensitive information. This includes the redaction or removal of:
+* Private IP and MAC addresses
+* Exposed third-party camera feeds or sensitive service endpoints
+* Hostnames and email addresses
+* Session data, cookies, or other identifying technical footprints
 
+Any raw, unredacted evidence containing private technical information is stored securely offline and is not intended for public distribution.
 
+---
 
+## 🔗 Tools & Resources
 
+The following tools, software, and resources were utilized to conduct the reconnaissance and network discovery exercises for this module:
+
+* **[Nmap](https://nmap.org/)**: Open-source network scanner used for host discovery and subnet identification[cite: 14].
+* **[Zenmap](https://nmap.org/zenmap/)**: Official graphical user interface (GUI) for Nmap, used for executing ping scans and generating visual network topology maps.
+* **[theHarvester](https://github.com/laramies/theHarvester)**: Open-source OSINT tool utilized for gathering domain intelligence, subdomains, and hostnames from public sources.
+* **[Maltego](https://www.maltego.com/)**: Graphical link analysis software used for mapping open-source intelligence relationships and data points.
+* **[Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database)**: Index of advanced search operators used to uncover publicly exposed devices, directories, and sensitive information.
+* **Windows CLI Tools**: Native operating system utilities (`ping`, `arp -a`, `ipconfig /all`) used for manual MAC address resolution and ARP cache inspection.
+
+---
+
+## 👤 Author
 
 
 
