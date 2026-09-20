@@ -344,7 +344,7 @@ The exercise demonstrated why organizations should maintain accurate asset inven
 ### Network Topology
 
 
-![Kali Linux running](images/network_topology.pdf)
+[View Network Topology PDF](images/network_topology.pdf)
 
 
 ---
