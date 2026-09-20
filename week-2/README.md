@@ -173,17 +173,17 @@ ls -lh *.txt
 ## 🔍 W2-PM2 — GHDB & Search-Engine OSINT
 
 
-This practical module explored how the Google Hacking Database (GHDB) and specialized search operators can be leveraged to locate publicly indexed, sensitive information during OSINT reconnaissance[cite: 16].
+This practical module explored how the Google Hacking Database (GHDB) and specialized search operators can be leveraged to locate publicly indexed, sensitive information during OSINT reconnaissance.
 
 ### Task 1 — Internet-Exposed Camera Research
 
-This objective focused on identifying publicly searchable surveillance interfaces and mapping out the corresponding Google Dorks[cite: 16]. To maintain responsible disclosure standards in a public repository, **all live IP addresses, camera endpoints, and sensitive identifiers have been redacted**.
+This objective focused on identifying publicly searchable surveillance interfaces and mapping out the corresponding Google Dorks. To maintain responsible disclosure standards in a public repository, **all live IP addresses, camera endpoints, and sensitive identifiers have been redacted**.
 
 
 
 ### Task 2 — Mathematics PDF Research
 
-The secondary objective utilized open-directory search parameters to discover exposed web directories containing freely accessible mathematics textbooks and PDF documents[cite: 16].
+The secondary objective utilized open-directory search parameters to discover exposed web directories containing freely accessible mathematics textbooks and PDF documents.
 
 ---
 
@@ -197,7 +197,7 @@ Module PM2 required the most extensive research time in Week 2. Filtering out in
 - Search queries returned inconsistent or irrelevant pages.
 - Certain target portals presented ethical or safety considerations.
 
-> **Key Takeaway:** Search engine indexing does not guarantee that an endpoint is active, secure, or safe[cite: 16]. All OSINT findings must be thoroughly verified before drawing conclusions.
+> **Key Takeaway:** Search engine indexing does not guarantee that an endpoint is active, secure, or safe. All OSINT findings must be thoroughly verified before drawing conclusions.
 
 ---
 
