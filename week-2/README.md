@@ -178,7 +178,7 @@ The following tables summarize the results collected during both practical tasks
 
 #### Task 1 — Internet-Exposed Camera Research Results
 
-| # | Camera Endpoint | Relevant Dork | Credentials | Status |
+| # | Link | Relevant Dork | Credentials | Status |
 |---|---|---|---|---|
 | 1 | `http://109.233.191.130:8080/` | `intitle:"webcamXP" inurl:8080` | None | :white_check_mark: Found |
 | 2 | `http://www.insecam.org` | `inurl:"view/index.shtml"` | None | :white_check_mark: Found |
@@ -442,6 +442,14 @@ The following tools, software, and resources were utilized to conduct the reconn
 ---
 
 ## 👤 Author
+
+**Jessica Mordaa**  
+Computer Science Student
+
+**LinkedIn:** [https://www.linkedin.com/in/jessica-m-63b958321](https://www.linkedin.com/in/jessica-m-63b958321?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+
+
+---
 
 
 
