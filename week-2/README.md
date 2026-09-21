@@ -137,38 +137,9 @@ ls -lh *.txt
 ![Kali Linux running](images/file-verification.png)
 
 
----
-
-## 📂 Repository Structure
-
-```text
-.
-├── images/                      # Week 1 project screenshots
-│   ├── import-kali-linux.png    # VirtualBox Kali Linux import configuration
-│   └── kali-linux-running.png   # Kali Linux virtual machine running
-├── week-2/                      # Week 2 lab directory
-│   ├── images/                  # Week 2 project screenshots
-│   │   ├── .gitkeep             # Directory tracking file
-│   │   ├── curl-output.png      # cURL execution screenshot
-│   │   ├── dnsrecon-output.png  # DNSRecon output screenshot
-│   │   ├── file-verification.png# Terminal log file verification screenshot
-│   │   ├── nslookup-output.png  # NSLookup query screenshot
-│   │   ├── wafw00f-output.png   # WAF detection screenshot
-│   │   ├── whatweb-output.png   # WhatWeb technology scan screenshot
-│   │   └── whois-output.png     # WHOIS query screenshot
-│   ├── .gitkeep                 # Directory tracking file
-│   ├── curl-output.txt          # HTTP headers scan log
-│   ├── dnsrecon-output.txt      # DNS enumeration log
-│   ├── nslookup-output.txt      # Domain IP resolution log
-│   ├── wafw00f-output.txt       # WAF detection scan log
-│   ├── whatweb-output.txt       # Web technology fingerprint log
-│   ├── whois-output.txt         # Domain registration log
-│   └── README.md                # Week 2 lab documentation
-├── .gitignore                   # Excludes VirtualBox VM and system files
-└── README.md                    # Main repository README file
-```
 
 ---
+
 
 ## 🔍 W2-PM2 — GHDB & Search-Engine OSINT
 
@@ -366,6 +337,41 @@ The exercise demonstrated why organizations should maintain accurate asset inven
 
 
 ---
+
+
+## 📂 Repository Structure
+
+```text
+.
+├── images/                      # Week 1 project screenshots
+│   ├── import-kali-linux.png    # VirtualBox Kali Linux import configuration
+│   └── kali-linux-running.png   # Kali Linux virtual machine running
+├── week-2/                      # Week 2 lab directory
+│   ├── images/                  # Week 2 project screenshots
+│   │   ├── .gitkeep             # Directory tracking file
+│   │   ├── curl-output.png      # cURL execution screenshot
+│   │   ├── dnsrecon-output.png  # DNSRecon output screenshot
+│   │   ├── file-verification.png# Terminal log file verification screenshot
+│   │   ├── network_topology.pdf   # Zenmap network topology export
+│   │   ├── nslookup-output.png  # NSLookup query screenshot
+│   │   ├── theharvester-baidu.png # theHarvester execution screenshot
+│   │   ├── wafw00f-output.png   # WAF detection screenshot
+│   │   ├── whatweb-output.png   # WhatWeb technology scan screenshot
+│   │   └── whois-output.png     # WHOIS query screenshot
+│   ├── .gitkeep                 # Directory tracking file
+│   ├── curl-output.txt          # HTTP headers scan log
+│   ├── dnsrecon-output.txt      # DNS enumeration log
+│   ├── nslookup-output.txt      # Domain IP resolution log
+│   ├── wafw00f-output.txt       # WAF detection scan log
+│   ├── whatweb-output.txt       # Web technology fingerprint log
+│   ├── whois-output.txt         # Domain registration log
+│   └── README.md                # Week 2 lab documentation
+├── .gitignore                   # Excludes VirtualBox VM and system files
+└── README.md                    # Main repository README file
+```
+
+---
+
 
 ## ⚠️ Challenges & Lessons Learned
 
